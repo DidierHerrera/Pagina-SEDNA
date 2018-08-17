@@ -1,59 +1,91 @@
-*{
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+body {
+  font-family: 'Open Sans', sans-serif;
+
+}
+.navbar ul li a, .login {
+  transition: .4s;
+  font-size: 13px;
+
+}
+.navbar ul li a:hover, .login:hover {
+  color:#FF5274;
+  background: transparent;
+}
+.navbar {
+  padding: 30px 0;
+  height: auto;
+  box-shadow: 0 0 0 0;
+  border-bottom: 1px #aaa solid;
+}
+.container{
+  width: 90%;
+}
+.navbar .row {
   margin: 0;
-  padding: 0
 }
-body{
-  font-family: "Open Sans",sans-serif;
-  font-weight: 300;
-  color: rgba(28,54,83,.6);
+.logo{
+  width: 100px;
 }
-header .fondo1{
-  position: absolute;
-  width: 100%;
-  height: 700px;
+.imag{
+  background-image: url("assets/hero.jpg");
+  background-size: cover;
+  height: 95vh;
 }
-.brand-logo{
-  left: 175px;
+.bt1{
+  padding: 0 40px;
+  border-radius: 100px;
+  border: 1.5px white solid;
+  background-color: transparent !important;
+  transition: .4s;
 }
-header ul{
-  margin-right: 750px;
-  transition: all .3s ease-in-out;
-}
-header div{
-  top: 35px;
-}
-header ul li a{
-  font-size: 12px;
-}
-header ul li a:hover{
+.bt1:hover{
   color: #FF5274;
+  border: 1.5px #FF5274 solid;
+  background: transparent;
 }
-header nav{
-  background-color: #333;
-}
-.login{
-  position: absolute;
-  top: 60px;
-  right: 330px;
+.dow{
+  padding: 13px 35px 13px 35px;
+  border-radius: 100px;
   color: white;
+  background-color:#FF5274;
+  transition: .3s;
+  margin: 8px;
+  text-align: center;
+  padding: 15px 40px;
 }
-.login:hover{
-  color: #FF5274;
-
+.dow:hover{
+ background-color: #CB4335  ;
 }
-.sigup{
-  position: absolute;
-  top: 50px;
-  right: 150px;
-  padding:8px 40px;
-  display: inline-block;
+.learn{
+  padding: 13px 35px 13px 35px;
+  border-radius: 100px;
+  border: 1.5px #FF5274 solid;
+  color:#FF5274;
+  transition: .3s;
+}
+.learn:hover{
+  background-color:#FF5274;
   color: white;
-  border: 2px solid #fff;
-  border-radius: 40px;
-  box-sizing: border-box;
-}
-.sigup:hover{
-  color:  #FF5274;
-  border: 2px solid #FF5274;
+ }
 
+.parrafo{
+  color: white;
+  margin-left: 10px;
+  margin-top: 145px;
+}
+.parrafo>div{
+  width: fit-content;
+  margin: 0 auto;
+}
+.parrafo{
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.titu{
+  text-align: center;
+  margin-bottom: 40px;
 }
