@@ -7,43 +7,88 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>Pagina Responsive</title>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Sedna - A Free HTML5/CSS3</title>
 </head>
 <body>
-  <header class="imag">
-    <nav class="navbar transparent container">
-      <div class="row">
-        <div class="col s2">
-          <a href="#!" class="logo">
-            <img class= "logo" src="assets/sedna-logo.png">
-          </a>
+  <header>
+    <div class="fijo">
+      <nav class="my-awesome-navbar transparent container">
+        <div class="row">
+          <div class="col s2">
+            <a href="#!" class="brand-logo">
+              <img class= "logo" src="img/sedna-logo@2x.png">
+            </a>
+          </div>
+          <div>
+            <ul class="left ">
+              <li><a href="">FEATURES</a></li>
+              <li><a href="">ASSETS</a></li>
+              <li><a href="">BLOG</a></li>
+              <li><a href="">DOWNLOAD</a></li>
+            </ul>
+            <ul class="right">
+              <li><a class="log" href="sass.html">LOG IN</a></li>
+              <li><a class="btn bt1">SIGN UP</a></li>
+            </ul>
+          </div>
         </div>
+      </nav>
+    </div>
+  </header>
+  <header class="fondo">
+    <div class="contenedor">
+      <section class="parrafo">
+        <h1 class="titulo">Design, collaborate, win!</h1>
+        <p class="par">Introducing "Sedna". A responsive one page website, designed & developed exclusively for Codrops.</p>
         <div>
-          <ul class="left ">
-            <li><a href="">FEATURES</a></li>
-            <li><a href="">ASSETS</a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">DOWNLOAD</a></li>
-          </ul>
-          <ul class="right">
-            <li><a class="login" href="sass.html">LOG IN</a></li>
-            <li><a class=" btn bt1">SIGN UP</a></li>
-          </ul>
+          <a class="bt2">DOWNLOAD</a>
+          <a class="bt3">LEARN MORE</a>
         </div>
-      </div>
-    </nav>
-    <section class="parrafo">
-      <h1 class="titu">Design, collaborate, win!</h1>
-      <p class="parrafo">Introducing "Sedna". A responsive one page website, designed & developed exclusively for Codrops.</p>
-      <div>
-        <a href="" class="dow">DOWNLOAD</a>
-        <a href="" class="learn">LEARN MORE</a>
-      </div>
-    </section>
+      </section>
+        <div class="icono">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </div>
     </header>
 
+    <header class="row">
+      <div class="col s4">
+          <img class= "img left" src="img/drawing.png  ">
+          <h5 class="ti">EASILY CUSTOMISED</h5>
+          <p class="tex">Easily customise Sedna to suit your start up, portfolio or product. Take advantage of the layered Sketch file and bring your product to life.</p>
+      </div>
+      <div class="col s4">
+          <img class= "img left" src="img/light-bulb.png ">
+          <h5 class="ti">MODERN DESING</h5>
+          <p class="tex">Designed with modern trends and techniques in mind, Sedna will help your product stand out in an already saturated market.</p>
+          </div>
+      <div class="col s4">
+          <img class= "img left" src="img/atom.png ">
+          <h5 class="ti">RESPONSIVE DEVELOPMENT</h5>
+          <p class="tex">Built using the latest web technologies like html5, css3, and jQuery, rest assured Sedna will look smashing on every device under the sun.</p>
+      </div>
 
-  <script type="text/javascript" src="js/index.js"></script>
-  </body>
+    </header>
+    <section class="row">
+      <article class="devices">
+                <img class="imgdevices" src="img\devices.png" alt="">
+      </article>
+      <article class="dv">
+        <h1>Sedna will drive your poducts forward</h1>
+        <h4>present your product, start up, or portfolio in a beautifully modern way. Turn your visitors in to clients.</h4>
+        <h2>UNIVERSAL & RESPONSIVE</h2>
+        <h4>Sedna is universal and will look smashing on any device.</h4>
+        <h2>USER CENTRIC DESING</h2>
+        <h4>Sedna takes advantage of common design patterns, allowing for a seamless experience for users of all levels.</h4>
+        <h2>CLEAN REUSABLE CODE</h2>
+        <h4>Download an re-use the Sedna open source code for any other project you like.</h4>
+      </article>
+    </section>
+
+
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
 </html>
